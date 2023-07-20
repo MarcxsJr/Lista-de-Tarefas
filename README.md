@@ -1,4 +1,4 @@
-# Calculadora
+# Lista de Tarefas
 
 ![preview](./img/tela.png)
 
