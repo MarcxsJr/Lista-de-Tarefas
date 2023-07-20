@@ -252,7 +252,7 @@ p input:focus ~label{
 footer{
     border-top: 1px solid rgba(0, 0, 0, 0.452);
     background: #d3e1e2ea;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
