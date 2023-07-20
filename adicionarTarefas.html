@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <link rel="icon" href="./img/lista.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="nome">Lista de Tarefas</h1>
+            <input type="checkbox" id="toggler">   
+            <label for="toggler"><i class="bi bi-list"></i></label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="./adicionarTarefas.html" class="tarefa">Adicionar Tarefas</a></li>
+                    <li><a href="./tarefasConcluidas.html">Tarefas Concluídas</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="pag1">
+        <section>
+            <h1>Lista de Tarefas</h1>
+            <p>
+                <input type="text" class="input-tarefa">
+                <label>Tarefa</label>
+                <button class="btn-tarefa">Adicionar</button>
+            </p>
+            <ul class="tarefas"></ul>
+        </section>
+    </main>
+    <footer>
+        <h2>Feito por Marcos Junior - 2023</h2>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
